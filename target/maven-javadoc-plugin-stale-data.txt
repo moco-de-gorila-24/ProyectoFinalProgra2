@@ -1,0 +1,48 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Central/.m2/repository/no_se/a/1/a-1.jar;C:/Users/Central/.m2/repository/no_se_x2/e/2/e-2.jar;C:/Users/Central/.m2/repository/dfs/i/3/i-3.jar;C:/Users/Central/.m2/repository/libreria1/libreria111/1/libreria111-1.jar;C:/Users/Central/.m2/repository/libreria2/libreria2/2/libreria2-2.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/Central/Documents/NetBeansProjects/abarrotesPresentacion_00000262792/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Central/Documents/NetBeansProjects/abarrotesPresentacion_00000262792/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'abarrotesPresentacion_00000262792 1.0 API'
+-use
+-version
+-windowtitle
+'abarrotesPresentacion_00000262792 1.0 API'
+c.abarrotespresentacion_00000262792
+C:\Users\Central\.m2\repository\no_se\a\1\a-1.jar = 1744402939063
+C:\Users\Central\.m2\repository\no_se_x2\e\2\e-2.jar = 1744402942983
+C:\Users\Central\.m2\repository\dfs\i\3\i-3.jar = 1747094902637
+C:\Users\Central\.m2\repository\libreria1\libreria111\1\libreria111-1.jar = 1744402942983
+C:\Users\Central\.m2\repository\libreria2\libreria2\2\libreria2-2.jar = 1744402939063
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\src\main\java = 1747094480681
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\allclasses-index.html = 1747705669382
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\allpackages-index.html = 1747705669387
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\element-list = 1747705669229
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\help-doc.html = 1747705669547
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\index-all.html = 1747705669491
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\index.html = 1747705669536
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\member-search-index.js = 1747705669404
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\module-search-index.js = 1747705669391
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\overview-tree.html = 1747705669349
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\package-search-index.js = 1747705669395
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\search.html = 1747705669497
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\tag-search-index.js = 1747705669410
+C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\reports\apidocs\type-search-index.js = 1747705669398
