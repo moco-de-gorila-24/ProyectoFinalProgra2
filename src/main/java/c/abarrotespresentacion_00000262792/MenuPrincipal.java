@@ -88,7 +88,7 @@ public class MenuPrincipal {
             }
         } 
     }
-    //15.*
+    
     /*
      *El metodo agregar producto primero pide al usuario la clave del producto que se desea agregar para despues validar que este escrita correctamente
      *con una expresion regular para despues pedir los datos nombre, tipo y unidad para despues verificar que estos no esten vacios para despues verificar
@@ -157,7 +157,7 @@ public class MenuPrincipal {
         }
         
     }
-    //16.*
+    
     /*
      *El metodo consultar por clave primero valida que el hashmap de productos no este vacio para despues pedir la clave y validar que este escrita correctamente con una
      *expresion regular para despues verificar que el producto exista y finalmente consultar el producto
@@ -195,7 +195,7 @@ public class MenuPrincipal {
             sc.nextLine();
         }
     }
-    //17.*
+    
     /*
      *El producto actualizar producto primero valida que el hashmap de productos no este vacio despues pide la clave del producto para validar que el producto 
      *exista en el hashmap despues se pide la nueva clave y ambas claves se validan que cumplan con el formato y se valida que la nueva clave no este repetida
@@ -281,7 +281,6 @@ public class MenuPrincipal {
             sc.nextLine();
         }
     }
-    //18.*
     /*
      *El producto eliminar producto primero verifica que el hashmap de productos no este vacio luego se pide al usuario la clave del producto que se quiere eliminar para despues 
      *validar que este escrito con el formato pedido con una expresion regular despues se verifica que la clave este asociada a un valor para despues preguntar si se desea borrar
@@ -467,9 +466,7 @@ public class MenuPrincipal {
             sc.nextLine();
         }
         
-    }
-    //20.*
-    
+    }    
     /*
     El metodo comprarProductosGranel primero verifica que el hashmap productosP no este vacio despues pide la clavde del producto que se desea comprar
     luego se pide la clave de movimiento que esta sera la clave del productoGranel despues se verifica que ambas claves esten escritas con el formato correcto con una expresion
@@ -571,8 +568,6 @@ public class MenuPrincipal {
             sc.nextLine();
         }
     }
-    //21.*
-    
     /*
      *El metodo venta productos granel primero verifica que el hashmap movimientosCompras no este vacio ya que depende de este para hacer las ventas
      *para despues pedir por teclado la clave del producto que se desea vender en formato despues se verifica que se cumpla el formato con el maches despues 
@@ -649,8 +644,6 @@ public class MenuPrincipal {
             System.out.println("No se encontro el producto" + e);
         }
     }
-    //22.*
-    
     /*
      *El metodo consultar compra por clave primero verifica que el hashmap no este vacio para despues con la clase Scanner pedirle
      *al usuario la clave del producto granel que quiere consultar, despues verifica que se cumpla el formato con el maches y la expresion regular
@@ -691,8 +684,6 @@ public class MenuPrincipal {
             sc.nextLine();
         }
     }
-    //25.*
-    
     /*
      *El metodo mostrarInventario primero verifica que el hashmap del inventario no este vacio y si lo esta te devuelve al menu
      *despues con un foreach devuelve los valores dentro de este
@@ -722,7 +713,6 @@ public class MenuPrincipal {
             
         }
     }
-    //26.*
     
     /*
      *EL metodo registro de compras primero verifica que el hashmap movimientosCompras no este vacio y si lo esta te regresa al menu
@@ -752,7 +742,6 @@ public class MenuPrincipal {
             System.out.println("El producto no existe " + e);
         }
     }
-    //27.*
     
     /*
      *El metodo mostrar registro de ventas primero verifica que no este vacio y si lo esta te regresa al menu para despues con un for 

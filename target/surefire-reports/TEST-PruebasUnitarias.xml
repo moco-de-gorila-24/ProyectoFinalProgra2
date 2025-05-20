@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PruebasUnitarias" time="0.075" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PruebasUnitarias" time="0.091" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="MX"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Central\AppData\Local\Temp\surefire15636185184545331009\surefirebooter-20250519200814312_3.jar C:\Users\Central\AppData\Local\Temp\surefire15636185184545331009 2025-05-19T20-08-14_101-jvmRun1 surefire-20250519200814312_1tmp surefire_0-20250519200814312_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Central\AppData\Local\Temp\surefire1567981561548623151\surefirebooter-20250520090807047_3.jar C:\Users\Central\AppData\Local\Temp\surefire1567981561548623151 2025-05-20T09-08-06_809-jvmRun1 surefire-20250520090807047_1tmp surefire_0-20250520090807047_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="PruebasUnitarias#pruebaClaveValida"/>
+    <property name="test" value="PruebasUnitarias#compraProductoGranel"/>
     <property name="surefire.test.class.path" value="C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\test-classes;C:\Users\Central\Documents\NetBeansProjects\abarrotesPresentacion_00000262792\target\classes;C:\Users\Central\.m2\repository\no_se\a\1\a-1.jar;C:\Users\Central\.m2\repository\no_se_x2\e\2\e-2.jar;C:\Users\Central\.m2\repository\dfs\i\3\i-3.jar;C:\Users\Central\.m2\repository\libreria1\libreria111\1\libreria111-1.jar;C:\Users\Central\.m2\repository\libreria2\libreria2\2\libreria2-2.jar;C:\Users\Central\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Central\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Central\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Central\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Central\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Central\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Central\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Central"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Central\AppData\Local\Temp\surefire15636185184545331009\surefirebooter-20250519200814312_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Central\AppData\Local\Temp\surefire1567981561548623151\surefirebooter-20250520090807047_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -60,5 +60,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="pruebaClaveValida" classname="PruebasUnitarias" time="0.031"/>
+  <testcase name="compraProductoGranel" classname="PruebasUnitarias" time="0.033">
+    <failure message="expected: &lt;12.4&gt; but was: &lt;12.399999618530273&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <12.4> but was: <12.399999618530273>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)
+	at PruebasUnitarias.compraProductoGranel(PruebasUnitarias.java:134)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+  </testcase>
 </testsuite>
